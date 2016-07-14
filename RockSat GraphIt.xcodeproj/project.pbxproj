@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB4AF841D3746CB00657C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4AF831D3746CB00657C76 /* AppDelegate.swift */; };
+		2BB4AF861D3746CB00657C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4AF851D3746CB00657C76 /* ViewController.swift */; };
+		2BB4AF881D3746CB00657C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB4AF871D3746CB00657C76 /* Assets.xcassets */; };
+		2BB4AF8B1D3746CB00657C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB4AF891D3746CB00657C76 /* Main.storyboard */; };
+		2BB4AF961D3746CB00657C76 /* RockSat_GraphItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4AF951D3746CB00657C76 /* RockSat_GraphItTests.swift */; };
+		2BB4AFA11D3746CC00657C76 /* RockSat_GraphItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4AFA01D3746CC00657C76 /* RockSat_GraphItUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB4AF921D3746CB00657C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB4AF781D3746CB00657C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB4AF7F1D3746CB00657C76;
+			remoteInfo = "RockSat GraphIt";
+		};
+		2BB4AF9D1D3746CC00657C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB4AF781D3746CB00657C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB4AF7F1D3746CB00657C76;
+			remoteInfo = "RockSat GraphIt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BB4AF801D3746CB00657C76 /* RockSat GraphIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RockSat GraphIt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB4AF831D3746CB00657C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BB4AF851D3746CB00657C76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BB4AF871D3746CB00657C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB4AF8A1D3746CB00657C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BB4AF8C1D3746CB00657C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB4AF911D3746CB00657C76 /* RockSat GraphItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RockSat GraphItTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB4AF951D3746CB00657C76 /* RockSat_GraphItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockSat_GraphItTests.swift; sourceTree = "<group>"; };
+		2BB4AF971D3746CB00657C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB4AF9C1D3746CC00657C76 /* RockSat GraphItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RockSat GraphItUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB4AFA01D3746CC00657C76 /* RockSat_GraphItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockSat_GraphItUITests.swift; sourceTree = "<group>"; };
+		2BB4AFA21D3746CC00657C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB4AF7D1D3746CB00657C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4AF8E1D3746CB00657C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4AF991D3746CC00657C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB4AF771D3746CB00657C76 = {
+			isa = PBXGroup;
+			children = (
+				2BB4AF821D3746CB00657C76 /* RockSat GraphIt */,
+				2BB4AF941D3746CB00657C76 /* RockSat GraphItTests */,
+				2BB4AF9F1D3746CC00657C76 /* RockSat GraphItUITests */,
+				2BB4AF811D3746CB00657C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB4AF811D3746CB00657C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4AF801D3746CB00657C76 /* RockSat GraphIt.app */,
+				2BB4AF911D3746CB00657C76 /* RockSat GraphItTests.xctest */,
+				2BB4AF9C1D3746CC00657C76 /* RockSat GraphItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB4AF821D3746CB00657C76 /* RockSat GraphIt */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4AF831D3746CB00657C76 /* AppDelegate.swift */,
+				2BB4AF851D3746CB00657C76 /* ViewController.swift */,
+				2BB4AF871D3746CB00657C76 /* Assets.xcassets */,
+				2BB4AF891D3746CB00657C76 /* Main.storyboard */,
+				2BB4AF8C1D3746CB00657C76 /* Info.plist */,
+			);
+			path = "RockSat GraphIt";
+			sourceTree = "<group>";
+		};
+		2BB4AF941D3746CB00657C76 /* RockSat GraphItTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4AF951D3746CB00657C76 /* RockSat_GraphItTests.swift */,
+				2BB4AF971D3746CB00657C76 /* Info.plist */,
+			);
+			path = "RockSat GraphItTests";
+			sourceTree = "<group>";
+		};
+		2BB4AF9F1D3746CC00657C76 /* RockSat GraphItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4AFA01D3746CC00657C76 /* RockSat_GraphItUITests.swift */,
+				2BB4AFA21D3746CC00657C76 /* Info.plist */,
+			);
+			path = "RockSat GraphItUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB4AF7F1D3746CB00657C76 /* RockSat GraphIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB4AFA51D3746CC00657C76 /* Build configuration list for PBXNativeTarget "RockSat GraphIt" */;
+			buildPhases = (
+				2BB4AF7C1D3746CB00657C76 /* Sources */,
+				2BB4AF7D1D3746CB00657C76 /* Frameworks */,
+				2BB4AF7E1D3746CB00657C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RockSat GraphIt";
+			productName = "RockSat GraphIt";
+			productReference = 2BB4AF801D3746CB00657C76 /* RockSat GraphIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BB4AF901D3746CB00657C76 /* RockSat GraphItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB4AFA81D3746CC00657C76 /* Build configuration list for PBXNativeTarget "RockSat GraphItTests" */;
+			buildPhases = (
+				2BB4AF8D1D3746CB00657C76 /* Sources */,
+				2BB4AF8E1D3746CB00657C76 /* Frameworks */,
+				2BB4AF8F1D3746CB00657C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB4AF931D3746CB00657C76 /* PBXTargetDependency */,
+			);
+			name = "RockSat GraphItTests";
+			productName = "RockSat GraphItTests";
+			productReference = 2BB4AF911D3746CB00657C76 /* RockSat GraphItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BB4AF9B1D3746CC00657C76 /* RockSat GraphItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB4AFAB1D3746CC00657C76 /* Build configuration list for PBXNativeTarget "RockSat GraphItUITests" */;
+			buildPhases = (
+				2BB4AF981D3746CC00657C76 /* Sources */,
+				2BB4AF991D3746CC00657C76 /* Frameworks */,
+				2BB4AF9A1D3746CC00657C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB4AF9E1D3746CC00657C76 /* PBXTargetDependency */,
+			);
+			name = "RockSat GraphItUITests";
+			productName = "RockSat GraphItUITests";
+			productReference = 2BB4AF9C1D3746CC00657C76 /* RockSat GraphItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB4AF781D3746CB00657C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wesley;
+				TargetAttributes = {
+					2BB4AF7F1D3746CB00657C76 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2BB4AF901D3746CB00657C76 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2BB4AF7F1D3746CB00657C76;
+					};
+					2BB4AF9B1D3746CC00657C76 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2BB4AF7F1D3746CB00657C76;
+					};
+				};
+			};
+			buildConfigurationList = 2BB4AF7B1D3746CB00657C76 /* Build configuration list for PBXProject "RockSat GraphIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB4AF771D3746CB00657C76;
+			productRefGroup = 2BB4AF811D3746CB00657C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB4AF7F1D3746CB00657C76 /* RockSat GraphIt */,
+				2BB4AF901D3746CB00657C76 /* RockSat GraphItTests */,
+				2BB4AF9B1D3746CC00657C76 /* RockSat GraphItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB4AF7E1D3746CB00657C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4AF881D3746CB00657C76 /* Assets.xcassets in Resources */,
+				2BB4AF8B1D3746CB00657C76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4AF8F1D3746CB00657C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4AF9A1D3746CC00657C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB4AF7C1D3746CB00657C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4AF861D3746CB00657C76 /* ViewController.swift in Sources */,
+				2BB4AF841D3746CB00657C76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4AF8D1D3746CB00657C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4AF961D3746CB00657C76 /* RockSat_GraphItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4AF981D3746CC00657C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4AFA11D3746CC00657C76 /* RockSat_GraphItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB4AF931D3746CB00657C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB4AF7F1D3746CB00657C76 /* RockSat GraphIt */;
+			targetProxy = 2BB4AF921D3746CB00657C76 /* PBXContainerItemProxy */;
+		};
+		2BB4AF9E1D3746CC00657C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB4AF7F1D3746CB00657C76 /* RockSat GraphIt */;
+			targetProxy = 2BB4AF9D1D3746CC00657C76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BB4AF891D3746CB00657C76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB4AF8A1D3746CB00657C76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB4AFA31D3746CC00657C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BB4AFA41D3746CC00657C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BB4AFA61D3746CC00657C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RockSat GraphIt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.RockSat-GraphIt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BB4AFA71D3746CC00657C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RockSat GraphIt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.RockSat-GraphIt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BB4AFA91D3746CC00657C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RockSat GraphItTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.RockSat-GraphItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockSat GraphIt.app/Contents/MacOS/RockSat GraphIt";
+			};
+			name = Debug;
+		};
+		2BB4AFAA1D3746CC00657C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RockSat GraphItTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.RockSat-GraphItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockSat GraphIt.app/Contents/MacOS/RockSat GraphIt";
+			};
+			name = Release;
+		};
+		2BB4AFAC1D3746CC00657C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RockSat GraphItUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.RockSat-GraphItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RockSat GraphIt";
+			};
+			name = Debug;
+		};
+		2BB4AFAD1D3746CC00657C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "RockSat GraphItUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.RockSat-GraphItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RockSat GraphIt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB4AF7B1D3746CB00657C76 /* Build configuration list for PBXProject "RockSat GraphIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4AFA31D3746CC00657C76 /* Debug */,
+				2BB4AFA41D3746CC00657C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB4AFA51D3746CC00657C76 /* Build configuration list for PBXNativeTarget "RockSat GraphIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4AFA61D3746CC00657C76 /* Debug */,
+				2BB4AFA71D3746CC00657C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BB4AFA81D3746CC00657C76 /* Build configuration list for PBXNativeTarget "RockSat GraphItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4AFA91D3746CC00657C76 /* Debug */,
+				2BB4AFAA1D3746CC00657C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BB4AFAB1D3746CC00657C76 /* Build configuration list for PBXNativeTarget "RockSat GraphItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4AFAC1D3746CC00657C76 /* Debug */,
+				2BB4AFAD1D3746CC00657C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB4AF781D3746CB00657C76 /* Project object */;
+}
